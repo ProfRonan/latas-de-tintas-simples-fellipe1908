@@ -10,10 +10,9 @@ qtd_de_latas = metros_quadrados // 54
 qtd_de_latas2 = metros_quadrados / 54
 valor_total = 0
 if qtd_de_latas2 > qtd_de_latas :
-    lt = qtd_de_latas + 1
-    v = lt * 80
+    lt = int(qtd_de_latas + 1)
+    v = int(lt * 80)
     print(f"Serão necessárias {lt} latas totalizando R$ {v}")
 else:
-    qtd_de_latas
-    valor = qtd_de_latas * 80
+    valor = int(qtd_de_latas * 80)
     print(f"Serão necessárias {qtd_de_latas} latas totalizando R$ {valor}")
